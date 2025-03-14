@@ -31,7 +31,9 @@ const Modal = ({
               &times;
             </button>
           </div>
-          <div className="modal-body">{children}</div>
+          <div className="modal-body">
+            {children} {/* children에 SearchPopup 포함 */}
+          </div>
         </div>
       </Rnd>
     </div>
